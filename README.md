@@ -3,7 +3,7 @@
 IST 4310 Group Project\
 The Boba Shop is a store page for a fictional bubble tea shop.
 
-Features\
+Features
 * Full-stack development
 * Responsive web design
 * Functional user login form
