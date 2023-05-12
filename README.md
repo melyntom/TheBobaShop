@@ -1,7 +1,7 @@
 # The Boba Shop
 
 IST 4310 Group Project\
-Project Team 9: Mary Lynn Tom, \
+Project Team 9: Jessie Gonzalez, Edgar Ramirez, Ezra Ramos, Mary Lynn Tom \
 The Boba Shop is a store page for a fictional bubble tea shop.
 
 Features
