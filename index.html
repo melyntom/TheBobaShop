@@ -1,83 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>The Boba Shop | Home</title>
+	<title>The Boba Shop | Home</title>
+	<link rel="icon" type="image/png" sizes="64x64" href="img/favicon.png">
 
-		<!-- Google Fonts -->
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
 
-		<!-- CSS links -->
-		<link href="css/grid.css" rel="stylesheet">
-		<link href="css/main.css" rel="stylesheet">
-	</head>
+	<!-- CSS links -->
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/menuItems.css" rel="stylesheet">
+	<link href="css/signup.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+</head>
 
-	<body>
-		<!-- Site header and navigation-->
-		<header>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="secret.html">Secret Menu</a></li>
-					<li><a href="login.html">Login</a></li>
-				</ul>
-			</nav>
+<body>
+	<!-- Site header and navigation-->
+	<nav>
+		<div id="nav-elements">
+			<ul>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#news">Newsletter</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#">Home</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+		<h1>The Boba Shop</h1>
+	</header>
 
-			<h1>The Boba Shop</h1>
-		</header>
+	<!-- Main page content-->
+	<main id="main-container">
+		<!-- About section-->
+		<section id="about">
+			<div class="row">
+				<aside>
+					<img src="" alt="">
+				</aside>
+				<h2>About The Boba Shop</h2>
+				<p>At The Boba Shop, we specialize in providing our customers with
+					cool and unique bubble tea drinks.</p>
+			</div>
+		</section>
 
-		<!-- Main page content-->
-		<main>
-			<!-- About section-->
-			<section>
-				<div class="row">
-					<aside>
-						<img src="" alt="">
-					</aside>
-					<h2>About The Boba Shop</h2>
-					<p>At The Boba Shop, we specialize in providing our customers with
-						cool and unique bubble tea drinks.</p>
+		<!-- Menu -->
+		<section id="menu">
+			<div class="row" id="menu-head">
+				<h2>Our Menu</h2>
+				<p></p>
+			</div>
+
+			<div id="menu-catalog">
+				<!-- Column 1 -->
+				<div id="col-1">
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/cosmic.jpg" alt="cosmic boba tea">
+							<p class="menu-item-title">Cosmic Boba</p>
+							<p>Take to the stars with our cosmic boba.</p>
+							<p>Available for a limited time</p>
+						</figure>
+					</div>
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/gold.jpg" alt="gold leaf boba">
+							<p class="menu-item-title">Gold Boba</p>
+							<p>Feeling extra? You're sure to get your money's worth.</p>
+						</figure>
+					</div>
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/just boba.jpg" alt="boba pearls">
+							<p class="menu-item-title">Just Boba</p>
+							<p>Rich people have caviar. We have boba.</p>
+						</figure>
+					</div>
 				</div>
-			</section>
 
-			<!-- Menu -->
-			<section>
-				<div class="row">
-					<h2>Our Menu</h2>
+				<!-- Column 2 -->
+				<div id="col-2">
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/not starbucks rainbow tea.jpg" alt="rainbow tea">
+							<p class="menu-item-title">Not Starbucks Rainbow Tea</p>
+							<p>Taste the ROYGBIV with our rainbow tea.</p>
+							<p>Product not associated with Starbucks</p>
+						</figure>
+					</div>
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/boba ice cream.jpg" alt="boba ice cream">
+							<p class="menu-item-title">Boba Ice Cream</p>
+							<p>Cool off with our tasty new treat.</p>
+						</figure>
+					</div>
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/cake boba.jpg" alt="birthday cake boba">
+							<p class="menu-item-title">Birthday Boba</p>
+							<p>I don't know about you, but I'm feeling 22.</p>
+						</figure>
+					</div>
 				</div>
-				<div class="row">
-					<div>
-						<img src="" alt="">
-						<h3>Cosmic Boba</h3>
-						<p>Take to the stars with our cosmic boba.<br>
-							Become a member now!</p>
-						<p>Available for a limited time</p>
-					</div>
-					<div>
-						<img src="" alt="">
-						<h3>Not Starbucks Rainbow Tea</h3>
-						<p>Taste the ROYGBIV with our rainbow tea.</p>
-						<p>Product not associated with Starbucks</p>
-					</div>
-					<div>
-						<img src="" alt="">
-						<h3>Green Tea Boba Smoothie</h3>
-						<p>A unique twist on a traditional drink.</p>
-					</div>
-					<div>
-						<img src="" alt="">
-						<h3>Baby Blue Boba</h3>
-						<p>This cute-colored drink is sure to brighten your day.</p>
-					</div>
-			</section>
-		</main>
 
-		<!-- Contact info for The Boba Shop -->
-		<footer>
-			<!-- Contact information here -->
-		</footer>
-	</body>
+				<!-- Column 3 -->
+				<div id="col-3">
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/baby blue.jpg" alt="baby blue raspberry boba">
+							<p class="menu-item-title">Baby Blue Boba</p>
+							<p>This cute-colored drink is sure to brighten up your day.</p>
+						</figure>
+					</div>
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/potted plant.jpg" alt="coffee boba with sprout">
+							<p class="menu-item-title">Planty the Potted Plant</p>
+							<p>Your new nemesis.</p>
+						</figure>
+					</div>
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/build your own.jpg" alt="build your own boba">
+							<p class="menu-item-title">Build Your Own Boba</p>
+							<p>The customer is always right!<br>
+								Customize any drink to make it your own.</p>
+						</figure>
+					</div>
+				</div>
+
+				<!-- Column 4 -->
+				<div id="col-4">
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/green tea smoothie.jpg" alt="green tea smoothie">
+							<p class="menu-item-title">Green Tea Smoothie</p>
+							<p>A unique twist on a traditional drink.</p>
+						</figure>
+					</div>
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/boba fett.jpg" alt="boba fett drink">
+							<p class="menu-item-title">Boba Fett</p>
+							<p>What's boba without Boba Fett?</p>
+						</figure>
+					</div>
+					<div class="menu-item">
+						<figure>
+							<img src="img/menu/boba-less.jpg" alt="boba-less boba (water)">
+							<p class="menu-item-title">Boba-less Boba</p>
+							<p>Hydrate, hydrate, hydrate.</p>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Contact info for The Boba Shop -->
+	<footer>
+		<!-- Newsletter registration-->
+		<section id="news">
+			<div class="signup">
+				<h2>Sign Up</h2>
+				<form action="signup.php" method="post">
+					<label for="first_name">First Name:</label>
+					<input type="text" id="first_name" name="first_name" required />
+					<label for="last_name">Last Name:</label>
+					<input type="text" id="last_name" name="last_name" required />
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required />
+					<input type="submit" value="Sign Up" />
+				</form>
+		</section>
+
+		<!-- Contact information here -->
+		<section id="contact">
+
+		</section>
+
+		<a href="https://www.flaticon.com/free-icons/bubble-tea" title="bubble tea icons">
+			Bubble tea icons created by Freepik - Flaticon</a>
+	</footer>
+</body>
 
 </html>
