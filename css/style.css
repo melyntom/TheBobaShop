@@ -1,0 +1,170 @@
+/* Main stylesheet for webpage design 
+ * Nav bar adpapted from tutorial at: https://www.w3schools.com/css/css_navbar_horizontal.asp
+ */
+
+@charset "UTF-8";
+
+/***** Styling by element ****/
+body {
+	margin: 0;
+}
+
+header {
+	display: inline-flex;
+	background: linear-gradient(to bottom, transparent 0%, rgba(211, 171, 161, 0.4) 90%), url(../img/header.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+header h1 {
+	display: inline-flex;
+	margin: auto 0;
+	padding: 0.3em 1.5em;
+	background: rgba(256, 256, 256, 0.7);
+	font-size: 6em;
+	font-family: 'Courier Prime', monospace;
+}
+
+footer {
+	background: rgba(171, 167, 182, 1);
+}
+
+/* Navigation */
+nav ul {
+	position: fixed;
+	z-index: 10;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(118, 106, 105, 1);
+	top: 0;
+	width: 100%;
+	font-family: 'Courier Prime', monospace;
+	font-size: 1.1em;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: rgba(79, 73, 68, 1);
+}
+
+/***** Class styling*****/
+.row {
+	width: 100%;
+}
+
+/***** Id styling *****/
+#site-head {
+	display: flex;
+}
+
+#main-container {
+	background-color: #fff;
+	width: 100%;
+
+	/** Add some spacing to the top/bottom of page + center contents left/right **/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about {
+	background: rgba(211, 171, 161, 1);
+}
+
+#about p {
+	margin: 0;
+}
+
+#menu {
+	display: grid;
+	background: linear-gradient(to bottom, rgba(211, 171, 161, 0.4) 0%,
+		transparent 10%, rgba(171, 167, 182, 0.4) 90%),
+		url("../img/menu background-1.jpg");
+	width: 100%;
+}
+
+#menu h2 {
+	display: inline-flex;
+	margin: 0 auto 0 auto;
+	padding: 0.3em 6em;
+	background: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	font-family: 'Delius', cursive;
+	font-size: 2.5em;
+}
+
+#menu-head {
+	display: flex;
+	margin: 2em 0 0 0;
+}
+
+#menu-catalog {
+	display: inline-flex;
+}
+
+#col-1 {
+	display: inline-block;
+	/*background-color: #ff0000;*/
+	width: 24%;
+	margin: 0 1%;
+}
+
+#col-2 {
+	display: inline-block;
+	/*background-color: #009dff;*/
+	width: 24%;
+	margin: 0 1%;
+}
+
+#col-3 {
+	display: inline-block;
+	/*background-color: #00ff51;*/
+	width: 24%;
+	margin: 0 1%;
+}
+
+#col-4 {
+	display: inline-block;
+	/*background-color: #000000;*/
+	width: 23%;
+	margin: 0 1%;
+}
+
+#news {
+	margin: auto;
+}
+
+/***** Custom Scrollbar *****/
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #c4c9dd;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #ead6c9;
+}

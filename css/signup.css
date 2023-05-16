@@ -1,0 +1,45 @@
+/* Style for HTML form */
+
+@charset "UTF-8";
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.signup {
+	background: rgba(255, 255, 255, 0.7);
+	max-width: 400px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.signup h2 {
+	text-align: center;
+}
+
+.signup input[type="text"],
+.signup input[type="email"],
+.signup input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.signup input[type="submit"] {
+	background-color: rgba(118, 106, 105, 1);
+	color: white;
+	cursor: pointer;
+}
+
+.signup input[type="submit"]:hover {
+	background-color: rgba(79, 73, 68, 1);
+}

@@ -1,0 +1,48 @@
+/* CSS for menu items
+ * Adapted from tutorial at: https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html
+ */
+
+@charset "UTF-8";
+
+.menu-item figure {
+	background: #ffffff;
+	margin: 1em 0;
+	padding: 15px 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-transition: all .20s linear;
+	-moz-transition: all .20s linear;
+	transition: all .20s linear;
+	z-index: 0;
+	position: relative;
+}
+
+.menu-item figure:hover {
+	-webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	transform: scale(1.02);
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .7);
+}
+
+.menu-item img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.menu-item p {
+	margin: 0;
+	font-family: 'Klee One', cursive;
+	font-size: 0.9em;
+}
+
+.menu-item-title {
+	margin: 0.6em !important;
+	font-size: 1em !important;
+	font-weight: 600;
+}
