@@ -18,16 +18,17 @@ https://www.w3schools.com/css/css_rwd_grid.asp
 
 
 Start up MariaDB in root user mode (Commands/Code to type will be tabbed over):
+(user is root, -p will ask for password that you set up in the earlier assignments)
 
-	mysql -u root -p	(user is root, -p will ask for password that you set up in the earlier assignments)
+	mysql -u root -p
 
 Once MariaDB is running, use the following commands to create the database and user:
 
 	CREATE DATABASE boba_web_db;
-	CREATE USER 'boba_user'@'localhost' IDENTIFIED BY 'BobaIsBest';		(The identified by is the password to assign)
+	CREATE USER 'boba_user'@'localhost' IDENTIFIED BY 'BobaIsBest';
 	GRANT ALL PRIVILEGES ON boba_web_db.* TO 'boba_user'@'localhost';
 	FLUSH PRIVILEGES;
-	USE boba_web_db;							(This will load that database)
+	USE boba_web_db;
 
 After all that, you'll have the following set up:
 Database: 	boba_web_db
