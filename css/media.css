@@ -1,3 +1,64 @@
 /* Media queries */
 
 @charset "UTF-8";
+
+@media (max-width: 1000px) {
+	/* Header */
+	header h1 {
+		font-size: 4em;
+	}
+
+	/* About section */
+	#about-content {
+		display: block;
+	}
+
+	#about aside {
+		width: 100%;
+	}
+
+	#about img {
+		max-width: 50%;
+	}
+
+	#about-desc {
+		width: 100%;
+		margin: 1em;
+	}
+
+	/* Newsletter */
+	.signup {
+		max-width: 100%;
+		margin-top: 1em;
+	}
+
+	#news {
+		padding: 3em;
+	}
+
+	/* Newsletter */
+	#news-content {
+		display: block;
+	}
+
+	#news aside {
+		width: 100%;
+	}
+
+	#news-form {
+		width: 100%;
+		margin: 1em;
+	}
+}
+
+@media (max-width: 768px) {
+	/* Header */
+	header h1 {
+		font-size: 3.2em;
+	}
+
+	/* Menu */
+	#menu h2 {
+		font-size: 2em;
+	}
+}

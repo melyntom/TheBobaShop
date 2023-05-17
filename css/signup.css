@@ -7,7 +7,8 @@ html {
 }
 
 body {
-	font-family: Arial, sans-serif;
+	font-size: 110%;
+	font-family: 'Courier Prime', monospace;
 }
 
 .signup {
@@ -32,12 +33,15 @@ body {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
+	font-family: 'Courier Prime', monospace;
 }
 
 .signup input[type="submit"] {
 	background-color: rgba(118, 106, 105, 1);
 	color: white;
 	cursor: pointer;
+	font-family: 'Courier Prime', monospace;
+	font-size: 100%;
 }
 
 .signup input[type="submit"]:hover {

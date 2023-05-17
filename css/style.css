@@ -22,12 +22,14 @@ header h1 {
 	margin: auto 0;
 	padding: 0.3em 1.5em;
 	background: rgba(256, 256, 256, 0.7);
-	font-size: 6em;
+	font-size: 5em;
 	font-family: 'Courier Prime', monospace;
 }
 
 footer {
 	background: rgba(171, 167, 182, 1);
+	padding: 1em 0;
+	text-align: center;
 }
 
 /* Navigation */
@@ -42,7 +44,7 @@ nav ul {
 	top: 0;
 	width: 100%;
 	font-family: 'Courier Prime', monospace;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 li {
@@ -66,6 +68,18 @@ li a:hover {
 	width: 100%;
 }
 
+.highlight {
+	font-weight: 600;
+	font-size: 1.2em !important;
+}
+
+.credits {
+	padding-bottom: 0.5em;
+	font-size: 0.8em;
+	color: rgba(118, 106, 105, 1) !important;
+	text-decoration: none;
+}
+
 /***** Id styling *****/
 #site-head {
 	display: flex;
@@ -81,14 +95,45 @@ li a:hover {
 }
 
 #about {
+	display: inline-flex;
 	background: rgba(211, 171, 161, 1);
+	padding: 2em 0;
+	text-align: center;
+	font-family: 'Courier Prime', monospace;
+}
+
+#about aside {
+	width: 37%;
+	margin: 0 1.5%;
+}
+
+#about img {
+	max-width: 100%;
+}
+
+#about h2 {
+	margin: 0 0 0.5em 0;
+	font-size: 2em;
 }
 
 #about p {
 	margin: 0;
+	padding: 0 6em;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+#about-content {
+	display: inline-flex;
+}
+
+#about-desc {
+	width: 57%;
+	margin: auto 1.5%;
 }
 
 #menu {
+	padding: 2em 0;
 	display: grid;
 	background: linear-gradient(to bottom, rgba(211, 171, 161, 0.4) 0%,
 		transparent 10%, rgba(171, 167, 182, 0.4) 90%),
@@ -108,7 +153,6 @@ li a:hover {
 
 #menu-head {
 	display: flex;
-	margin: 2em 0 0 0;
 }
 
 #menu-catalog {
@@ -144,7 +188,32 @@ li a:hover {
 }
 
 #news {
+	display: inline-flex;
+	padding: 3em 5em;
+	background: rgba(171, 167, 182, 1);
+}
+
+#news aside {
+	width: 45%;
+	margin: auto 2.5%;
+}
+
+#news p {
 	margin: auto;
+	padding-bottom: 1em;
+	text-align: center;
+	font-family: 'Courier Prime', monospace;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+#news-content {
+	display: inline-flex;
+}
+
+#news-form {
+	width: 45%;
+	margin: auto 2.5%;
 }
 
 /***** Custom Scrollbar *****/
