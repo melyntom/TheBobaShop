@@ -24,10 +24,9 @@
 
 <body>
 	<!-- Site header and navigation-->
-	<nav>
+	<nav class="row">
 		<div id="nav-elements">
 			<ul>
-				<li><a href="#contact">Contact</a></li>
 				<li><a href="#news">Newsletter</a></li>
 				<li><a href="#menu">Menu</a></li>
 				<li><a href="#about">About</a></li>
@@ -35,7 +34,7 @@
 			</ul>
 		</div>
 	</nav>
-	<header>
+	<header class="row">
 		<h1>The Boba Shop</h1>
 	</header>
 
@@ -43,13 +42,20 @@
 	<main id="main-container">
 		<!-- About section-->
 		<section id="about">
-			<div class="row">
+			<div class="row" id="about-content">
 				<aside>
-					<img src="" alt="">
+					<img src="img/about.png" alt="boba tea drinks">
 				</aside>
-				<h2>About The Boba Shop</h2>
-				<p>At The Boba Shop, we specialize in providing our customers with
-					cool and unique bubble tea drinks.</p>
+				<div id="about-desc">
+					<h2>About The Boba Shop</h2>
+					<p>	At The Boba Shop, we are passionate about creating unique and delightful
+						boba tea experiences for our customers.
+						Established with a vision to bring the rich and vibrant flavors of this
+						beloved Asian beverage to our community, we take pride in offering a wide
+						array of handcrafted boba tea creations that will satisfy both your taste
+						buds and your sense of adventure.
+					</p>
+				</div>
 			</div>
 		</section>
 
@@ -166,32 +172,39 @@
 			</div>
 		</section>
 
-	</main>
-
-	<!-- Contact info for The Boba Shop -->
-	<footer>
 		<!-- Newsletter registration-->
 		<section id="news">
-			<div class="signup">
-				<h2>Sign Up</h2>
-				<form action="signup.php" method="post">
-					<label for="first_name">First Name:</label>
-					<input type="text" id="first_name" name="first_name" required />
-					<label for="last_name">Last Name:</label>
-					<input type="text" id="last_name" name="last_name" required />
-					<label for="email">Email:</label>
-					<input type="email" id="email" name="email" required />
-					<input type="submit" value="Sign Up" />
-				</form>
+			<div class="row" id="news-content">
+				<aside>
+					<p class="highlight">Enjoy the delightful burst of flavors in our boba tea?</p>
+					<p>	Sign up for our newsletter to stay updated on our latest creations, 
+						promotions, and exclusive offers, ensuring you never miss a sip of 
+						our captivating concoctions.</p>
+				</aside>
+
+				<div class="signup news-form">
+					<h2>The Boba Shop Newsletter</h2>
+					<form action="process_signup.php" method="post">
+						<label for="first_name">First Name:</label>
+						<input type="text" id="first_name" name="first_name" required />
+						<label for="last_name">Last Name:</label>
+						<input type="text" id="last_name" name="last_name" required />
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required />
+						<input type="submit" value="Sign Me Up!" />
+					</form>
+				</div>
+			</div>
 		</section>
+	</main>
 
-		<!-- Contact information here -->
-		<section id="contact">
-
-		</section>
-
-		<a href="https://www.flaticon.com/free-icons/bubble-tea" title="bubble tea icons">
-			Bubble tea icons created by Freepik - Flaticon</a>
+	<footer>
+		<!-- Favicon attribution -->
+		<div class="row credits">© The Boba Shop 2023</div>
+		<div class="row">
+			<a class="credits" href="https://www.flaticon.com/free-icons/bubble-tea">
+				Bubble tea icon created by Freepik - Flaticon</a>
+		</div>
 	</footer>
 </body>
 
